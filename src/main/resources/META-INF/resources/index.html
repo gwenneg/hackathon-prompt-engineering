@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Prompt Tuner</title>
+        <link rel="stylesheet" href="css/prompt-tuner.css">
+        <script src="js/prompt-tuner.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>⭐ Prompt Tuner ⭐</h1>
+            <h2>by Gwenneg Lepage</h2>
+            <div style="position: absolute; right: 20px; top: 20px;">
+                <a href="diagram.html" target="_blank" style="color: #ccc;">Diagram</a>
+            </div>
+        </header>
+        <section id="chat">
+            <div id="loading">
+                <img src="images/loading.gif">
+            </div>
+            <div id="left">
+                <h3>Raw prompt</h3>
+                <ul class="messages"></ul>
+            </div>
+            <div id="right">
+                <h3>Tuned prompt 🚀</h3>
+                <ul class="messages"></ul>
+            </div>
+        </section>
+        <section id="controls">
+            <textarea id="prompt" placeholder="Ask anything"></textarea>
+            <div id="options">
+                <div>
+                    <label for="model">Model:</label>
+                    <select id="model"></select>
+                </div>
+                <div>
+                    <label for="system-prompt">System prompt:</label>
+                    <select id="system-prompt"></select>
+                </div>
+                <button id="send">Send</button>
+            </div>
+        </section>
+        <footer>
+            Powered by <a href="https://quarkus.io" target="_blank"><img src="images/quarkus.svg" alt="Quarkus"></a>
+        </footer>
+    </body>
+</html>

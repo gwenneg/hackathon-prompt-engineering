@@ -1,0 +1,5 @@
+Help me explain quantum physics to my 7-year-old kid.
+
+Which programming language is the best for backend development?
+
+Help me write a blog post about an application that transforms a naive prompt into a fine-tuned one which leverages prompt engineering techniques and makes the LLM return the best possible answers.

@@ -1,0 +1,193 @@
+@font-face {
+    font-family: Inter;
+    src: url("../fonts/Inter-VariableFont_opsz,wght.ttf");
+}
+html {
+    background-color: #151515FF;
+    color: #ffffff;
+    display: flex;
+    font-family: Inter, sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+header {
+    color: #ccc;
+    margin: 20px 0;
+    text-align: center;
+}
+h1, h2, h3 {
+    margin: 0;
+}
+h1 {
+    font-size: 45px;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 20px;
+}
+h3 {
+    color: #ccc;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#chat {
+    background-color: #222222;
+    display: flex;
+    flex-grow: 1;
+    gap: 5px;
+    overflow-y: auto;
+    width: 100%;
+}
+#left, #right {
+    background-color: #151515FF;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    width: 100%;
+}
+#left {
+    flex: 1;
+    padding: 1rem;
+}
+#right {
+    flex: 1;
+    padding: 1rem;
+}
+footer {
+    margin: 20px 0;
+    text-align: center;
+    color: #ccc;
+    font-size: 20px;
+}
+footer img {
+    height: 20px;
+    margin-left: 5px;
+    margin-bottom: -4px;
+}
+
+#prompt {
+    width: 100%;
+    resize: none;
+}
+
+
+#controls {
+    margin: 20px 500px 0 500px;
+    background-color: #222222;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#options {
+    display: flex;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    padding: 20px 0;
+    display: flex;
+}
+
+
+
+
+
+
+
+button, select {
+    font-size: 16px;
+}
+select {
+    padding: 4px 7px;
+    border-radius: 5px;
+}
+button {
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+#options > :nth-child(1), #options > :nth-child(2) {
+    flex-grow: 1;
+}
+
+.icon {
+    font-size: 25px;
+    padding-top: 15px;
+}
+.icon2 {
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+#submit {
+    margin-left: auto;
+}
+
+textarea {
+    height: 75px;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+}
+
+
+.user {
+    background-color: #222222;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 300px;
+    margin-right: 10px;
+    flex-grow: 1;
+}
+.assistant {
+    background-color: #222222;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+#loading {
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 350px;
+    display: none;
+}
+#loading > img {
+    height: 350px;
+    width: 350px;
+}
+
+.diagram {
+    margin-top: 40px;
+    margin-left: 80px;
+    width: 750px;
+}

@@ -1,1 +1,1 @@
-# hackathon-prompt-engineering
+# hackathon-prompt-tuner
