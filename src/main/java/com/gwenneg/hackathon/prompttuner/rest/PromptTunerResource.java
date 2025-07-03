@@ -13,12 +13,12 @@ import jakarta.ws.rs.Path;
 import java.util.List;
 import java.util.Set;
 
-import static com.gwenneg.hackathon.prompttuner.openai.CompletionsClient.ASSISTANT;
-import static com.gwenneg.hackathon.prompttuner.openai.CompletionsClient.SYSTEM;
-import static com.gwenneg.hackathon.prompttuner.openai.CompletionsClient.USER;
-
 @Path("/prompt-tuner")
 public class PromptTunerResource {
+
+    String SYSTEM = "system";
+    String USER = "user";
+    String ASSISTANT = "assistant";
 
     @Inject
     PromptSender promptSender;
